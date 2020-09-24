@@ -22,7 +22,7 @@ class TiendaController extends Controller
             $query = $query->where('titulo', 'like', '%' . $keyword . '%');
         } 
 
-        $productos = $query->paginate(40);
+        $productos = $query->paginate(42);
 
         
         return view ('tienda.tienda', [

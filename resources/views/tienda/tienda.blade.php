@@ -59,9 +59,16 @@
                 <p>{{$categoria->descripcion}}</p>
             <!-- Page Heading Ends -->
             <!-- Search form -->
-            <div class="md-form mt-0">
-                <input class="form-control" type="text" placeholder="Busqueda" aria-label="Search">
-            </div>
+            <!--<div class="md-form mt-0" method='get' action='/productos/{categoria}'>
+                <input class="form-control" type="text" placeholder="Busqueda" aria-label="Search"  >
+            </div>-->
+
+            <form class="form-inline mr-auto" method="get" action="/productos/{{$categoria->id}}">
+                {{csrf_field()}}
+                <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-primary" type="submit">Buscar</button>
+            </form>
+
             <!-- Spacer Starts -->
                 <div class="spacer-small"></div>
             <!-- Spacer Ends -->
@@ -73,21 +80,22 @@
             <!-- Product Grid Display Starts -->
                 <div class="row">
                 <!-- Product #1 Starts -->
+                @foreach ($productos as $producto)
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        @foreach ($productos as $producto)
+                        
                         <div class="product-col">
                         <!-- Product Image Starts -->
                             <div class="product-col-img">
                                 <img src="{{ $producto->foto }}" alt="Product Image" class="img-responsive img-center">
                             <!-- Overlay Starts -->
-                                <div class="overlay animation">
+                                <!--<div class="overlay animation">-->
                                 <!-- Buttons Starts -->
                                     <!--<ul class="list-unstyled">
                                         <li><a class="btn btn-block btn-grey" href="#">Quick View</a></li>
                                         <li><a class="btn btn-block btn-secondary" href="#">Add To Cart</a></li>
                                     </ul>-->
                                 <!-- Buttons Ends -->
-                                </div>
+                                <!-- </div> -->
                             <!-- Overlay Ends -->
                             </div>
                         <!-- Product Image Ends -->
@@ -101,8 +109,9 @@
                                 <li class="pull-right"><a href="#">Add to Compare</a></li>
                             </ul>-->
                         </div>
-                        @endforeach
+                        
                     </div>
+                    @endforeach
                 <!-- Product #1 Ends -->
                 
                 {{ $productos->links() }}

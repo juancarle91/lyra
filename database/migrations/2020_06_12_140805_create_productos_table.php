@@ -21,7 +21,7 @@ class CreateProductosTable extends Migration
             $table->decimal('precio', 8, 2)
                 ->unsigned()
                 ->nullable()
-                ->default(null);
+                ->default(0);
             $table->string('foto');
             $table->enum('visible_en', ['Si', 'No'])
                 ->nullable()

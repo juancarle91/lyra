@@ -73,11 +73,6 @@ class ProductoCrudController extends CrudController
                 'label' => 'Descripcion'
             ],
             [
-                'name' => 'precio', 
-                'type' => 'text', 
-                'label' => 'Precio'
-            ],
-            [
                 'name' => 'foto', 
                 'type' => 'browse', 
                 'label' => 'Imagen'
@@ -99,6 +94,12 @@ class ProductoCrudController extends CrudController
                 'allows_null' => false,
                 'default' => 0,
             ],
+            [
+                'name' => 'precio', 
+                'type' => 'text', 
+                'label' => 'Precio',
+                'default' => 0
+            ]
         ]);
 
         /**
