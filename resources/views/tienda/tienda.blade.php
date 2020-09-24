@@ -64,8 +64,7 @@
             </div>-->
 
             <form class="form-inline mr-auto" method="get" action="/productos/{{$categoria->id}}">
-                {{csrf_field()}}
-                <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+                <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search" name="keyword">
                 <button class="btn btn-primary" type="submit">Buscar</button>
             </form>
 

@@ -26,7 +26,6 @@ Route::get('/productos/{categoria}', 'TiendaController@show');
 Route::get('/contacto', 'ContactoController@contacto');
 Route::post('/contacto', 'ContactoController@enviar_mail');
 Route::get('/novedades', 'NovedadController@novedades');
-Route::post('/productos/{categoria}', 'TiendaController@show');
 
 
 //Route::get('/', 'sobreNosotrosController@sobreNosotros');
