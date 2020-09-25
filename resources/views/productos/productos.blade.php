@@ -35,8 +35,8 @@
 			@foreach ($categorias as $categoria)
 			<li class="col-sm-4 col-xs-12">
 				<div class="intro-box-item">
-					<img src="{{ $categoria->foto }}" alt="Optical Solutions" class="img-responsive img-center images-product">
-					<h4>{{ $categoria->titulo }}</h4>
+					<a href="/productos/{{$categoria->id}}"><img src="{{ $categoria->foto }}" alt="Optical Solutions" class="img-responsive img-center images-product"></a>
+					<a href="/productos/{{$categoria->id}}"><h4>{{ $categoria->titulo }}</h4></a>
 				</div>
 			</li>
 			@endforeach

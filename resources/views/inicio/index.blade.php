@@ -42,10 +42,10 @@
     <ul class="list-unstyled row intro-box text-center">
         @foreach ($categorias as $categoria)
         <li class="col-sm-4 col-xs-12">
-            <div class="intro-box-item">
+            <a href="/productos/{{$categoria->id}}"><div class="intro-box-item">
                 <img src="{{ $categoria->foto }}" alt="Optical Solutions" class="img-responsive img-center images-product">
                 <h4>{{ $categoria->titulo }}</h4>
-            </div>
+            </div></a>
         </li>
         @endforeach
     </ul>
@@ -78,18 +78,18 @@
                             <div class="product-col-img">
                                 <img src="{{ $producto->foto }}" alt="Product Image" class="img-responsive img-center images-product">
                                 <!-- Overlay Starts -->
-                                <div class="overlay animation">
+                                <!--<div class="overlay animation">
                                     <!-- Buttons Starts -->
-                                    <ul class="list-unstyled">
+                                    <!--<ul class="list-unstyled">
                                         <li><a class="btn btn-block btn-grey" href="#">Agrandar</a></li>
                                         <li><a class="btn btn-block btn-secondary" href="#">Cotizar</a></li>
                                     </ul>
                                     <!-- Buttons Ends -->
-                                </div>
+                                <!--</div> -->
                                 <!-- Overlay Ends -->
                             </div>
                             <!-- Product Image Ends -->
-                            <h6 class="product-col-name"><a href="#">{{ $producto->titulo }}</a></h6>
+                            <h6 class="product-col-name">{{ $producto->titulo }}</h6>
                         </div>
                     </div>
                     @endforeach
