@@ -50,15 +50,15 @@
 			</div>
 			<div class="col-md-6 col-xs-12">
 				<div class="info-box">
-					<h3>Nos encantaria oir acerca tuyo!</h3>
+					<h3>Nos encantaria oir acerca de ti!</h3>
 					<h5>
 						Brindamos atencion personalizada durante las 24 hs del dia. Nuestros operadores estaran dispuestos a asesorarlo para que su compra resulte satisfactoria.
 					</h5>
 					<div class="row">
-						<h4 class="col-sm-6 col-xs-12">Tel: 011-1245-4567</h4>
-						<h4 class="col-sm-6 col-xs-12">Fax: 011-1245-4567</h4>
+						<h4 class="col-sm-6 col-xs-12">Tel: 221-228-8958</h4>
+						<h4 class="col-sm-6 col-xs-12">Cel: 011-1245-4567</h4>
 					</div>
-					<h4>Email: <a href="mailto:fabiana@lyrasalud.com"> fabiana@lyrasalud.com</a></h4>
+					<h4>Email: <p href="mailto:fabiana@lyrasalud.com"> administracion@lyrasalud.com</p></h4>
 				</div>
 			</div>
 			<div class="col-md-1 col-xs-12 hidden-sm hidden-xs"></div>
@@ -131,9 +131,9 @@
 					<span class="icon-wrap"><i class="fa fa-car"></i></span>
 					<h4>Venga a Visitarnos</h4>
 					<ul class="list-unstyled">
-						<li>Cabildo, 8011 </li>
+						<li>Av. 60 1124 Depto. 8a, La Plata </li>
 						<li>Buenos Aires, Argentina.</li>
-						<li>011-1245-4567</li>
+						<li>221-228-8958</li>
 					</ul>
 				</div>
 			<!-- Box #1 Ends -->
@@ -144,7 +144,7 @@
 					<ul class="list-unstyled">
 						<li>Si usted esta teniendo una emergencia,</li>
 						<li>no espere para contactarnos.</li>
-						<li>Llame al 011-1245-4567</li>
+						<li>Llame al 221-228-8958</li>
 					</ul>
 				</div>
 			<!-- Box #2 Ends -->

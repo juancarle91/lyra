@@ -9,24 +9,24 @@
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <h4>Informaci&oacute;n</h4>
                     <p>
-                        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including.
+                        Nuestras oficinas están siempre abiertas para brindar la mejor atención especializada al público.
                     </p>
                     <ul class="list-unstyled address-list">
                         <li class="clearfix address">
                             <i class="fa fa-home"></i>
-                            Cabildo, 8011 Buenos Aires, Argentina.
+                            Av. 60 1124 Depto. 8a, La Plata, Buenos Aires, Argentina.
                         </li>
                         <li class="clearfix">
                             <i class="fa fa-fax"></i>
-                            011-1245-4567
+                            Teléfono: 221-228-8958
                         </li>
                         <li class="clearfix">
-                            <i class="fa fa-phone"></i>
-                            011-1245-4567
+                            <a href="https://api.whatsapp.com/send?phone=542214973663&text=Gracias!%20por%20contactarte,%20estaremos%20respondiendo%20en%20breve."><i class="fa fa-phone"></i>
+                            Whatsapp: 221-497-3663</a>
                         </li>
                         <li class="clearfix">
                             <i class="fa fa-envelope"></i>
-                            <a href="mailto:info@yourhospitalsite.com">fabiana@lyrasalud.com</a>
+                            <p href="mailto:administracion@lyrasalud.com">administracion@lyrasalud.com</p>
                         </li>
                     </ul>
                 </div>
@@ -46,12 +46,12 @@
                     <h4>Redes</h4>
                     <ul class="list-unstyled tweets-list">
                         <li>
-                            <a href="#"><i class="fa fa-facebook"></i>
+                            <a href="https://www.facebook.com/lyra.salud.10"><i class="fa fa-facebook"></i>
                             Facebook.</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter"></i>
-                            Twiter.</a>
+                            <a href="https://www.instagram.com/lyrasalud/?hl=es-la"><i class="fa fa-instagram"></i>
+                            Instagram.</a>
                         </li>
                     </ul>
                 </div>
@@ -81,12 +81,12 @@
     <div class="copyright">
         <div class="container clearfix">
             <p class="pull-left">
-                &copy; Copyright 20. Todos Los Derechos Reservados Por <span>Lyra Salud SRL</span>
+                &copy; Copyright 20. Todos Los Derechos Reservados Por <a href="/"><span>Lyra Salud SRL</span></a>
             </p>
             <ul class="list-unstyled list-inline pull-right">
-                <li><a href="#">Terminos De Servicio</a></li>
-                <li><a href="#">Privacidad</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <!-- <li><a href="#">Terminos De Servicio</a></li>-->
+                <!-- <li><a href="#">Privacidad</a></li>-->
+                <li><a href="/contacto">Contacto</a></li>
             </ul>
         </div>
     </div>

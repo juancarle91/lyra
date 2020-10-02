@@ -18,7 +18,6 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 Route::get('/', 'InicioController@inicio');
-Route::post('/', 'ContactoController@newsletter');
 Route::get('/sobre-nosotros', 'SobreNosotrosController@sobreNosotros');
 Route::get('/servicios', 'ServiciosController@servicios');
 Route::get('/productos', 'ProductosController@productos');
@@ -27,5 +26,5 @@ Route::get('/contacto', 'ContactoController@contacto');
 Route::post('/contacto', 'ContactoController@enviar_mail');
 Route::get('/novedades', 'NovedadController@novedades');
 
-
+//Route::post('/', 'ContactoController@newsletter');
 //Route::get('/', 'sobreNosotrosController@sobreNosotros');

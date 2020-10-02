@@ -6,16 +6,17 @@
         <div class="top-bar hidden-sm hidden-xs">
             <div class="row">
                 <div class="col-sm-5 col-xs-12">
-                    <span>Horario:</span>  Lun a Vier - 9:00 - 20:00, Sab &amp; Dom - 10:00 - 15:00
+                    <span>Horario:</span>  Lun a Vier - 9:00 - 20:00, Sab - 9:00 - 13:00
                 </div>
                 <div class="col-sm-7 col-xs-12">
                     <ul class="list-unstyled list-inline">
-                        <li class="hidden-md"><a href="mailto:care@yourhosptialsname.com">
+                        <li class="hidden-md"><p href="mailto:administracion@lyrasalud.com">
                             <i class="fa fa-envelope-o"></i>
-                            fabiana@lyrasalud.com
-                            </a>
+                            administracion@lyrasalud.com
+                        </p>
                         </li>
-                        <li><i class="fa fa-phone"></i> Llamanos: 011-1245-4567</li>
+                        <li><i class="fa fa-phone"></i> Llamanos: 221-228-8958</li>
+                        <li><i class="fa fa-phone"><a href="https://api.whatsapp.com/send?phone=542214973663&text=Gracias!%20por%20contactarte,%20estaremos%20respondiendo%20en%20breve."></i> Whatsapp: 221-497-3663</li></a>
                     </ul>
                 </div>
             </div>
@@ -63,7 +64,17 @@
                             <ul class="dropdown-menu" role="menu">
                                 @foreach ($categorias as $categoria)
                                 <li><a href="/productos/{{ $categoria->id }}">{{ $categoria->titulo }}</a></li>
-                    			@endforeach
+                                @endforeach
+                                <li>
+                                    <a href="images\odontologia.pdf" download>
+                                    Descargar Listado Odontologia 
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="images\insumoso .pdf" download>
+                                    Descargar Listado Insumos Médicos 
+                                    </a> 
+                                </li>
                             </ul>
                         </li>
                         <li class="dropdown">

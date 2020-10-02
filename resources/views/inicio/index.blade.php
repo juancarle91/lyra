@@ -107,7 +107,7 @@
                         <div class="product-col">
                             <!-- Product Image Starts -->
                             <div class="product-col-img">
-                                <img src="images\lentes1.jpg" alt="Product Image" class="img-responsive img-center images-product">
+                                <img src="/images/lentes1.jpg" alt="Product Image" class="img-responsive img-center images-product">
                                 <!-- Overlay Starts -->
                                 <div class="overlay animation">
                                     <!-- Buttons Starts -->
@@ -415,7 +415,7 @@
         <div class="row">
             <div class="col-md-5 col-xs-12 text-center-sm text-center-xs">
                 <h4>Asistencia Telef&oacute;nica</h4>
-                <h3><i class="fa fa-phone-square"></i> 011-1245-4567</h3>
+                <h3><i class="fa fa-phone-square"></i> 221-228-8958</h3>
             </div>
             <div class="col-md-4 col-xs-12 text-center-sm text-center-xs">
                 <a href="doctor-profile.html" class="btn btn-main text-uppercase">cont&aacute;ctenos</a>

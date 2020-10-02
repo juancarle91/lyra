@@ -79,13 +79,12 @@
             <!-- Product Grid Display Starts -->
                 <div class="row">
                 <!-- Product #1 Starts -->
-                @foreach ($productos as $producto)
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        
+                    @foreach ($productos as $producto)
+                    <div class="col-md-4 col-sm-6 col-xs-12">          
                         <div class="product-col">
                         <!-- Product Image Starts -->
                             <div class="product-col-img">
-                                <img src="{{ $producto->foto }}" alt="Product Image" class="img-responsive img-center">
+                                <img src="{{ asset($producto->foto) }}" alt="Product Image" class="img-responsive img-center images-product">
                             <!-- Overlay Starts -->
                                 <!--<div class="overlay animation">-->
                                 <!-- Buttons Starts -->
@@ -108,11 +107,9 @@
                                 <li class="pull-right"><a href="#">Add to Compare</a></li>
                             </ul>-->
                         </div>
-                        
                     </div>
-                    @endforeach
-                <!-- Product #1 Ends -->
-                
+                    @endforeach  
+                <!-- Product #1 Ends -->          
                 {{ $productos->links() }}
                 </div>
             <!-- Product Grid Display Ends -->
