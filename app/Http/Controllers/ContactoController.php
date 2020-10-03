@@ -60,7 +60,7 @@ class ContactoController extends Controller
         $contacto = $request->input('contacto');
         $asunto = $request->input('asunto');
         $mensaje = $request->input('mensaje');
-        $to_email = 'j.ignaciocarlee@gmail.com';
+        $to_email = 'administracion@lyrasalud.com';
         $data = [
             'nombre'=>$nombre, 
             'email' => $email, 

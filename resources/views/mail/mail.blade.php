@@ -5,6 +5,9 @@
     Numero de Contacto: {{ $data['contacto'] }}
 </div>
 <div>
+    Email: {{ $data['email'] }}
+</div>
+<div>
     Asunto: {{ $data['asunto'] }}
 </div>
 <div>
