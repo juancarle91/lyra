@@ -66,22 +66,22 @@
 			right: 40px;
 			bottom: -369px;
 		}
-	
+		#contacto-home {
+			
+			height: 500px;
+		}
+		#texto-contacto {
+		
+			height: 500px;
+		
+		}
+		#texto-contacto-h2 {
+			font-size: 45px;
+			margin-right: 10px;
+		}
 }
 
-#contacto-home {
-	min-height: 100%;
-	height: 500px;
-}
-#texto-contacto {
 
-    height: 500px;
-
-}
-#texto-contacto-h2 {
-	font-size: 45px;
-	margin-right: 10px;
-}
 /* Medium Devices Styles Starts */
 
 @media (min-width: 992px) and (max-width: 1199px) {

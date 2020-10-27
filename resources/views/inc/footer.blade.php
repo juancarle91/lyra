@@ -1,5 +1,5 @@
 <!-- Footer Starts -->
-<footer class="main-footer">
+<footer class="main-footer" id="footer">
     <!-- Footer Area Starts -->
     <div class="footer-area" id="pie">
         <!-- Nested Container Starts -->

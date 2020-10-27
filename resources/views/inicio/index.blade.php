@@ -1,7 +1,7 @@
 @extends('base')
 @section ('principal')
 <!-- Slider Section Starts -->
-<section >
+<section id="seccion-home">
     <div >
         <!-- Slide Starts -->
         @foreach ($slides as $slide)
@@ -381,7 +381,7 @@
 <!-- Main Container Ends -->
 
 
-                    
+<div id="contacto-home1">                    
     <section id="contacto-home">
         
         <div id="texto-contacto">
@@ -393,7 +393,7 @@
         </div>
     
     </section>
-
+</div>
 <!-- Main Container Starts -->
 <div class="container main-container no-margin-top">
     <!-- Book Appointment Box Starts -->
@@ -416,4 +416,6 @@
     <!-- Book Appointment Box Ends -->
 </div>
 <!-- Main Container Ends -->
+
+
 @endsection

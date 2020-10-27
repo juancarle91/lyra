@@ -1892,11 +1892,20 @@ ul#doctors-grid {
 			}
 	
 /* Tabs Styles Starts */
-
+#seccion-home {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
 #imagen-home {
 	max-width: 100%;
 }
 
+#contacto-home1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 #contacto-home {
 	display: flex;
 	align-items: center;
@@ -1907,6 +1916,7 @@ ul#doctors-grid {
 		padding-bottom: 8px;
 		font-weight: bold;
 		text-transform: uppercase;
+		margin-bottom: 5%;
 	}
 	#contacto-home .btn-main {
 		margin-top: 30px;
@@ -1940,8 +1950,10 @@ ul#doctors-grid {
 }
 
 #foto-contacto1 {
-	max-width: 50%;
 	border: transparent;
+    max-height: -webkit-fill-available;
+	margin-left: 20%;
+	width: fit-content;
 }
 
 #pie {
