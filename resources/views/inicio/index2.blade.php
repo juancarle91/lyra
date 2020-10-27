@@ -1,32 +1,37 @@
 @extends('base')
 @section ('principal')
 <!-- Slider Section Starts -->
-<section >
-    <div >
+<section class="slider clearfix">
+    <div id="camera_wrap_1" class="camera_wrap camera_white_skin">
         <!-- Slide Starts -->
         @foreach ($slides as $slide)
-        <img src="{{ asset($slide->foto) }}" id="imagen-home">
-        
+        <div data-src="{{ $slide->foto }}">
+            <div class="camera_caption fadeFromLeft hidden-sm hidden-xs">
+                <h2>{{ $slide->titulo}}</h2>
+                <p>{{ $slide->texto}}</p>
+                <a href="{{ $slide->link }}" class="btn btn-secondary">{{ $slide->boton }}</a>
+            </div>
+        </div>
         @endforeach
         <!-- Slide Ends -->
     </div>
-</section>
+</section> 
 <!-- Slider Section Ends -->
 <!-- Main Container Starts -->
 <div class="container">
 <!-- Intro Section Starts -->
 <section class="intro text-center">
     <!-- Heading Starts -->
-    <h2 class="main-heading1 lite">Te acompañamos día a día para cuidar tu salud y la de todos </h2>
-    <h2 class="main-heading2 text-center">con los mejores insumos médicos, tecnología y capacitación del mercado.</h2>
+    <!--<h2 class="main-heading1 lite">Bienvenidos A Nuestra</h2>-->
+    <h3 class="main-heading2 text-center">Te acompañamos día a día para cuidar tu salud y la de todos <br> con los mejores insumos médicos, tecnología y capacitación del mercado</h3>
     <br>
     <!-- Heading Ends -->
     <!-- Content Starts -->
     <div class="row">
         <div class="col-xs-10 col-xs-offset-1">
-            <p>
-                Solicite un presupuesto de acuerdo a sus necesidades y nos pondremos en contacto a la brevedad, brindando asesoramiento personalizado de acuerdo a su necesidad.
-            </p>
+            <!--<p>
+                Te acompañamos día a día para cuidar tu salud y la de todos con los mejores insumos médicos, tecnología y capacitación del mercado
+            </p>-->
 
         </div>
     </div>
@@ -379,21 +384,28 @@
 <!-- Product Section Ends -->
 </div>
 <!-- Main Container Ends -->
-
-
-                    
-    <section id="contacto-home">
-        
-        <div id="texto-contacto">
-            <h2 id="texto-contacto-h2">Seguinos en redes y agreganos en WhatsApp para conocer todas nuestras novedades y consultar por nuestros productos o cursos de capacitación.</h2>
-            <a href="/contacto" class="btn btn-main">Contactanos</a>
+<!-- Section Shop Intro Starts -->
+<section class="shop-intro-section parallax">
+    <!-- Nested Container Starts -->
+    <div class="container-fluid">
+        <!-- Nested Row Starts -->
+        <div class="row">
+            <!-- Starts -->
+            <div class="col-md-6 col-sm-8 col-xs-10 condensed">
+                <div class="shop-intro-section-content-box">
+                    <h4>Seguinos en redes y agreganos en WhatsApp para conocer todas nuestras novedades, productos y cursos de capacitación</h4>
+                    <!--<h1>El Mejor Servicio, Sin Moverte De Tu Casa</h1>
+                    <p>Brindamos soporte profesional y especializado en cuanto a insumos m&eacute;dicos, cont&aacute;ctenos y estaremos encantados de resolver sus inquietudes.</p>-->
+                    <a href="#" class="btn btn-main">Contacto</a>
+                </div>
+            </div>
+            <!-- Ends -->
         </div>
-        <div id="foto-contacto">
-            <img src="images/contacto.png" alt="image" class="img-responsive img-style1" id="foto-contacto1">
-        </div>
-    
-    </section>
-
+        <!-- Nested Row Ends -->
+    </div>
+    <!-- Nested Container Ends -->
+</section>
+<!-- Section Shop Intro Ends -->
 <!-- Main Container Starts -->
 <div class="container main-container no-margin-top">
     <!-- Book Appointment Box Starts -->

@@ -6,7 +6,7 @@ body {
 
 /* Standard Styles Starts */
 
-a { color: #009bdb; }
+a { color: #0B8BAD; }
 a:hover, 
 a:focus {
 	color: #057cad;
@@ -37,7 +37,7 @@ h6 { font-size: 16px; }
 .page-heading1 {
 	margin-top: 0;
 	margin-bottom: 20px;
-	color: #009bdb;
+	color: #0B8BAD;
 }
 
 .main-heading1 {
@@ -46,7 +46,7 @@ h6 { font-size: 16px; }
 .main-heading2 {
 	padding-bottom: 15px;
 	position: relative;	
-	color: #009bdb;
+	color: #0B8BAD;
 }
 .main-heading2:after {
 	content: "";
@@ -55,7 +55,7 @@ h6 { font-size: 16px; }
 	height: 2px;
 	left: 0;
 	bottom: 0;
-	background-color: #009bdb;	
+	background-color: #0B8BAD;	
 }
 .main-heading2.text-center:after {
 	left: 0;
@@ -65,7 +65,7 @@ h6 { font-size: 16px; }
 }
 .main-heading3 {
 	margin-bottom: 20px;
-	color: #009bdb;
+	color: #0B8BAD;
 }
 
 .sub-heading1 {
@@ -81,8 +81,8 @@ h6 { font-size: 16px; }
 	margin-top: 50px;
 	margin-bottom: 15px;
 	padding-bottom: 10px;
-	color: #009bdb;
-	border-bottom: 1px solid #009bdb;
+	color: #0B8BAD;
+	border-bottom: 1px solid #0B8BAD;
 }
 
 .side-heading2 {
@@ -139,7 +139,7 @@ h6 { font-size: 16px; }
 }
 
 .btn-secondary {
-	background-color: #009bdb;
+	background-color: #0B8BAD;
 }
 .btn-secondary:hover, 
 .btn-secondary:focus,
@@ -185,7 +185,7 @@ h6 { font-size: 16px; }
 .btn-transparent:focus,
 .btn-transparent:active,
 .btn-transparent.active {
-	color: #009bdb;
+	color: #0B8BAD;
 	background-color: #fff;
 }
 
@@ -198,8 +198,8 @@ h6 { font-size: 16px; }
 .btn-transparent.inverse:active,
 .btn-transparent.inverse.active {
 	color: #fff;
-	border-color: #009bdb;
-	background-color: #009bdb;
+	border-color: #0B8BAD;
+	background-color: #0B8BAD;
 }
 
 /* Header Styles Starts */
@@ -240,7 +240,7 @@ h6 { font-size: 16px; }
 			vertical-align: middle;
 		}
 		.top-bar li a:hover {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		.top-bar li .btn-group > .btn {
 			padding: 0;
@@ -251,11 +251,11 @@ h6 { font-size: 16px; }
 			text-decoration: none;		
 		}
 		.top-bar li .btn-group > .btn-link i.fa {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		.top-bar li .btn-group.open .btn-link, 
 		.top-bar li .btn-group.open .btn-link i.fa {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 			.top-bar li .btn-group > .btn-link i.fa {
 				margin-top: -3px;
@@ -273,8 +273,8 @@ h6 { font-size: 16px; }
 	text-transform: uppercase;	
 }
 	#nav .navbar-brand {
-		padding: 33px 0 0;
-		color: #009bdb;
+		padding: 0 0;
+		color: #0B8BAD;
 		font-size: 30px;
 		font-weight: 500;
 		height: auto;
@@ -313,10 +313,10 @@ h6 { font-size: 16px; }
 		#nav .navbar-nav > li.active > a, 
 		#nav .navbar-nav > li > a:hover, 
 		#nav .navbar-nav > li > a:focus {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 			#nav .dropdown-menu {
-				background-color: #009bdb;
+				background-color: #0B8BAD;
 				padding: 10px 0;
 				left: 0;
 				border: none;
@@ -326,6 +326,8 @@ h6 { font-size: 16px; }
 					padding-top: 5px;
 					padding-bottom: 5px;
 					color: #fff;
+					word-break: break-word;
+					white-space: normal;
 				}
 				#nav .dropdown-menu > li > a:hover,
 				#nav .dropdown-menu > li > a:focus {
@@ -347,7 +349,7 @@ h6 { font-size: 16px; }
 		}
 		#nav .navbar-toggle:hover .icon-bar, 
 		#nav .navbar-toggle:focus .icon-bar {
-			background-color: #009bdb;
+			background-color: #0B8BAD;
 		}
 		
 /* Navbar Search Styles Starts */
@@ -364,7 +366,7 @@ h6 { font-size: 16px; }
 		}
 		.nav-search .input-group .btn {
 			padding-right: 0;
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		.nav-search .input-group .form-control, 
 		.nav-search .input-group .btn {
@@ -398,7 +400,7 @@ h6 { font-size: 16px; }
 		}
 		.camera_prev:hover, 
 		.camera_next:hover {
-			background: #009bdb;
+			background: #0B8BAD;
 		}
 		.camera_wrap h2 {
 			margin: 0;
@@ -423,7 +425,7 @@ h6 { font-size: 16px; }
 		.camera_caption a.btn-secondary {
 			margin-top: 10px;
 			padding: 13px 26px;
-			background-color: #009bdb !important;
+			background-color: #0B8BAD !important;
 		}
 		.camera_caption a.btn-secondary:hover, 
 		.camera_caption a.btn-secondary:focus, 
@@ -468,7 +470,7 @@ h6 { font-size: 16px; }
 		color: #323232;
 	}
 	.main-banner h2::first-letter {
-		color: #009bdb;
+		color: #0B8BAD;
 	}
 		.main-banner h2 span {
 			padding: 20px 50px 16px 30px;
@@ -500,7 +502,7 @@ h6 { font-size: 16px; }
 			.breadcrumb li a:hover, 
 			.breadcrumb li a:focus, 
 			.breadcrumb li.active {
-				color: #009bdb;
+				color: #0B8BAD;
 			}
 		
 /* Main Container Styles Starts */
@@ -520,7 +522,7 @@ h6 { font-size: 16px; }
 }
 	.intro-box {
 		margin-top: 30px;
-		margin-bottom: 0;
+		margin-bottom: 30px;
 	}
 		.intro-box li {
 			margin-top: 25px;
@@ -551,7 +553,7 @@ h6 { font-size: 16px; }
 		padding: 30px;
 		color: #fff;
 		text-align: center;
-		background-color: #009bdb;
+		background-color: #0B8BAD;
 	}
 	.notification-boxes .box:hover {
 		background-color: #0091cd;
@@ -596,7 +598,7 @@ h6 { font-size: 16px; }
 			margin-bottom:20px;
 		}
 		.welcome-area.about .main-heading1 {
-			color: #009bdb;
+			color: #0B8BAD;
 			font-weight: 500;
 		}
 		.welcome-area.about .main-heading2 {
@@ -640,7 +642,7 @@ h6 { font-size: 16px; }
 			margin-top: 5px;
 			float: left;
 			font-size: 30px;
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		.about-featured ul.list > li h4 {
 			margin-top: 0;
@@ -669,7 +671,7 @@ h6 { font-size: 16px; }
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
-	background-color: #009bdb;
+	background-color: #0B8BAD;
 }
 	.featured-doctors h2 {
 		margin-top: 0;
@@ -725,7 +727,7 @@ h6 { font-size: 16px; }
 				width: 42px;
 				height: 42px;
 				line-height: 50px;
-				background-color: #009bdb;				
+				background-color: #0B8BAD;				
 			}
 			.featured-doctors .bio-box .profile-img .overlay ul.sm-links li + li, 
 			.doctors-grid .bio-box .profile-img .overlay ul.sm-links li + li {
@@ -821,7 +823,7 @@ h6 { font-size: 16px; }
 				width: 130px;
 				height: 130px;
 				line-height: 130px;
-				background-color: #009bdb;
+				background-color: #0B8BAD;
 			}
 			.medical-services li h5 {
 				margin-top: 30px;
@@ -872,7 +874,7 @@ h6 { font-size: 16px; }
 		color: #323232;
 	}
 	.block-404 h2 span {
-		color: #009bdb;
+		color: #0B8BAD;
 	}
 	.block-404 h5 {
 		margin-bottom: 20px;
@@ -925,8 +927,8 @@ h6 { font-size: 16px; }
 		.news-carousel .carousel-control:hover, 
 		.news-carousel .carousel-control:focus {
 			color: #fff;
-			background-color: #009bdb;
-			border-color: #009bdb;
+			background-color: #0B8BAD;
+			border-color: #0B8BAD;
 		}
 		.news-carousel .carousel-control.left {
 			left: auto;
@@ -962,7 +964,7 @@ h6 { font-size: 16px; }
 				color: #323232;
 			}
 			.news-post-box h5 a:hover {
-				color: #009bdb;
+				color: #0B8BAD;
 			}
 			.news-post-box .post-meta {
 				margin: 0 -20px 15px -20px;
@@ -1023,7 +1025,7 @@ h6 { font-size: 16px; }
 			line-height: 42px;
 			text-align: center;
 			font-size: 24px;
-			background-color: #009bdb;
+			background-color: #0B8BAD;
 		}
 		#accordion .panel:nth-child(2n) .panel-title .icon {
 			background-color: #4db1e2;
@@ -1031,7 +1033,7 @@ h6 { font-size: 16px; }
 		#accordion .panel-title:hover .fa, 
 		#accordion .panel-heading.active .panel-title, 
 		#accordion .panel-heading.active .panel-title .fa {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		#accordion .panel-heading .panel-title .icon, 
 		#accordion .panel-heading .panel-title .icon:hover, 
@@ -1068,7 +1070,7 @@ h6 { font-size: 16px; }
 	}
 		#accordion-faqs .panel-heading {
 			padding: 15px 30px;
-			background-color: #009bdb;
+			background-color: #0B8BAD;
 		}
 		#accordion-faqs .panel-heading.active {
 			background-color: #444;
@@ -1155,7 +1157,7 @@ h6 { font-size: 16px; }
 			width: 130px;
 			height: 130px;
 			line-height: 130px;
-			background-color: #009bdb;
+			background-color: #0B8BAD;
 		}
 		.tabs-wrap .nav li.active .icon, 
 		.tabs-wrap .nav li:hover .icon, 
@@ -1174,7 +1176,7 @@ h6 { font-size: 16px; }
 		.tabs-wrap .nav li.active h5, 
 		.tabs-wrap .nav li:hover h5, 
 		.tabs-wrap .nav li:focus h5 {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 	.tabs-wrap .tab-content { 
 		padding-left: 20px;
@@ -1217,20 +1219,20 @@ h6 { font-size: 16px; }
 			height: 0;
 			border: solid transparent;
 			border-color: rgba(0, 155, 219, 0);
-			border-top-color: #009bdb;
+			border-top-color: #0B8BAD;
 			border-width: 10px;
 		}
 		.tabs-wrap-2 .nav-tabs > li > a:hover, 
 		.tabs-wrap-2 .nav-tabs > li > a:focus {
-			color: #009bdb;
+			color: #0B8BAD;
 			background: none;
 		} 
 		.tabs-wrap-2 .nav-tabs > li.active > a, 
 		.tabs-wrap-2 .nav-tabs > li.active > a:focus, 
 		.tabs-wrap-2 .nav-tabs > li.active > a:hover {
 			color: #fff;
-			background-color: #009bdb;
-			border-color: #009bdb;
+			background-color: #0B8BAD;
+			border-color: #0B8BAD;
 		}
 	.tabs-wrap-2 .tab-content {
 		padding-top: 30px;
@@ -1264,7 +1266,7 @@ h6 { font-size: 16px; }
 	#doctors-filter li a:hover, 
 	#doctors-filter li a:focus, 
 	#doctors-filter li a.active {
-		color: #009bdb;
+		color: #0B8BAD;
 	}
 ul#doctors-grid {
 	list-style:none;
@@ -1363,7 +1365,7 @@ ul#doctors-grid {
 				height: 38px;
 				line-height: 42px;
 				text-align: center;
-				background-color: #009bdb;
+				background-color: #0B8BAD;
 			}
 			.panel-profile > .panel-footer ul.sm-links li:hover {
 				background-color: #313131;
@@ -1443,7 +1445,7 @@ ul#doctors-grid {
 				padding: 10px 20px;
 				font-weight: bold;
 				color: #fff;
-				background-color: #009bdb;
+				background-color: #0B8BAD;
 			}
 	
 /* News Page Styles Starts */
@@ -1475,7 +1477,7 @@ ul#doctors-grid {
 			color: #323232;
 		}
 		.news-post h4 a:hover {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		.news-post .post-meta {
 			margin: 0 -30px 20px -30px;
@@ -1503,7 +1505,7 @@ ul#doctors-grid {
 			}
 			.news-post .post-meta li a:hover, 
 			.news-post .post-meta li a:focus {
-				color: #009bdb;
+				color: #0B8BAD;
 			}
 			.news-post .btn {
 				margin-top: 15px;
@@ -1525,7 +1527,7 @@ ul#doctors-grid {
 		font-style: italic;
 		color: #fff;
 		line-height: 48px;
-		background-color: #009bdb;
+		background-color: #0B8BAD;
 		border: none;		
 	}
 	.news-post .quote .fa {
@@ -1548,7 +1550,7 @@ ul#doctors-grid {
 		color: #4f4f4f;
 		font-size: 15px;
 		line-height: 22px;
-		border-color: #009bdb;
+		border-color: #0B8BAD;
 	}
 	
 /* Blog Author Bio Box Styles Starts */
@@ -1604,7 +1606,7 @@ ul#doctors-grid {
 			}
 			.comments-area .media-body h5, 
 			.comments-area .media-body h5 a {
-				color: #009bdb;				
+				color: #0B8BAD;				
 			}
 			.comments-area .media-body .date {
 				margin-bottom: 15px;
@@ -1678,10 +1680,10 @@ ul#doctors-grid {
 			.products-section-tabs .nav-tabs > li > a:hover, 
 			.products-section-tabs .nav-tabs > li > a:focus, 
 			.products-section-tabs .nav-tabs > li.active > a {
-				color: #009bdb;
+				color: #0B8BAD;
 			}
 			.products-section-tabs .nav-tabs > li.active > a {
-				border-bottom: 4px solid #009bdb;
+				border-bottom: 4px solid #0B8BAD;
 			}
 	
 /* Product Filters Styles Starts */
@@ -1701,7 +1703,7 @@ ul#doctors-grid {
 			color: #d1d1d1;
 		}
 		.product-filter .display a.active {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		.product-filter .display a:hover, 
 		.product-filter .display a:focus {
@@ -1727,6 +1729,7 @@ ul#doctors-grid {
 	.product-col-img {
 		position: relative;
 		overflow: hidden;
+		height: 215px;
 	}
 		.product-col-img .overlay {
 			position: absolute;
@@ -1787,7 +1790,7 @@ ul#doctors-grid {
 		}
 		.product-col-name a:hover, 
 		.product-col-name a:focus {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 	.product-col-price {
 		margin-bottom: 20px;
@@ -1795,7 +1798,7 @@ ul#doctors-grid {
 		.product-col-price-new {
 			font-size: 20px;
 			font-weight: bold;
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		.product-col-price-old {
 			margin-left: 10px;
@@ -1818,7 +1821,7 @@ ul#doctors-grid {
 	.product-info-details-title {
 		margin-top: 0;
 		margin-bottom: 30px;
-		color: #009bdb;
+		color: #0B8BAD;
 		line-height: 46px;
 	}
 	.product-info-details-sub-heading {
@@ -1829,7 +1832,7 @@ ul#doctors-grid {
 	}
 		.product-info-details-manufacturer li {
 			padding-bottom: 8px;
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 			.product-info-details-manufacturer li span {
 				min-width: 150px;
@@ -1840,7 +1843,7 @@ ul#doctors-grid {
 		margin-bottom: 40px;
 	}
 		.product-info-details-price .price-new {
-			color: #009bdb;
+			color: #0B8BAD;
 			font-size: 36px;
 			font-weight: bold;
 			vertical-align: top;
@@ -1885,10 +1888,96 @@ ul#doctors-grid {
 			}
 			.product-info-details-sm-links li a:hover, 
 			.product-info-details-sm-links li a:focus {
-				color: #009bdb;
+				color: #0B8BAD;
 			}
 	
 /* Tabs Styles Starts */
+
+#imagen-home {
+	max-width: 100%;
+}
+
+#contacto-home {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+	#contacto-home .btn {
+		padding-top: 8px;
+		padding-bottom: 8px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	#contacto-home .btn-main {
+		margin-top: 30px;
+		padding: 10px 30px;
+		color: #161616;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-left: 11%;
+	}
+#contacto-home-div {
+	display: flex;
+}
+#texto-contacto {
+    background-color: #0B8BAD;
+    display: flex;
+    text-align: initial;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#texto-contacto-h2 {
+	margin-left: 11%;
+	color: #ffffff;
+}
+#foto-contacto {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	margin-right: 5%;
+}
+
+#foto-contacto1 {
+	max-width: 50%;
+	border: transparent;
+}
+
+#pie {
+	display: flex;
+}
+#footer1 {
+	margin-left: 11%;
+}
+	#footer1 div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+#footer2 {
+	margin-right: 11%;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+	#footer2 ul {
+		list-style: none;
+	}
+	#footer2 a {
+		cursor: pointer;
+	}
+	#footer2  .img-footer {
+		max-width: 25px;
+		margin-right: 5px;
+	}
+
 
 .tabs-product {
 	margin-bottom: 50px;
@@ -1919,10 +2008,10 @@ ul#doctors-grid {
 			.tabs-product .nav-tabs > li > a:hover, 
 			.tabs-product .nav-tabs > li > a:focus, 
 			.tabs-product .nav-tabs > li.active > a {
-				color: #009bdb;
+				color: #0B8BAD;
 			}
 			.tabs-product .nav-tabs > li.active > a {
-				border-bottom: 4px solid #009bdb;
+				border-bottom: 4px solid #0B8BAD;
 			}
 	.tabs-product .tab-content {
 		padding-top: 20px;
@@ -1954,7 +2043,7 @@ ul#doctors-grid {
 
 .shop-intro-section {
 	margin-top: 80px;
-	background-image: url(../images/home/home-shop-section-bg-1.jpg);
+	background-image: url(../images/about/doctor.jpg);
 }
 	.shop-intro-section .container-fluid, 
 	.shop-intro-section .container-fluid > .row > .condensed {
@@ -1968,7 +2057,7 @@ ul#doctors-grid {
 			.shop-intro-section-content-box {
 				padding: 100px 50px 100px 110px;
 				color: #fff;
-				background-color: #009bdb;
+				background-color: #0B8BAD;
 			}
 				.shop-intro-section-content-box h1 {
 					margin-bottom: 30px;
@@ -2034,7 +2123,7 @@ ul#doctors-grid {
 		.pagination > .active > span:hover, 
 		.pagination > .active > a:focus, 
 		.pagination > .active > span:focus {
-			background-color: #009bdb;
+			background-color: #0B8BAD;
 		}
 		.pagination > li > a, 
 		.pagination > li > span {
@@ -2116,8 +2205,8 @@ ul#doctors-grid {
 	.comments-carousel.carousel.vertical .carousel-control:hover, 
 	.comments-carousel.carousel.vertical .carousel-control:focus {
 		color: #fff;
-		background-color: #009bdb;
-		border-color: #009bdb;
+		background-color: #0B8BAD;
+		border-color: #0B8BAD;
 	}
 	.comments-carousel.carousel.vertical .carousel-control.left {
 		left: auto;
@@ -2162,10 +2251,10 @@ ul#doctors-grid {
 			}
 			.shopping-cart-table tbody > tr > td a:hover, 
 			.shopping-cart-table tbody > tr > td a:focus {
-				color: #009bdb;
+				color: #0B8BAD;
 			}
 			.shopping-cart-table tbody > tr > td.price {
-				color: #009bdb;
+				color: #0B8BAD;
 				font-size: 24px;
 				font-weight: bold;
 			}
@@ -2203,7 +2292,7 @@ ul#doctors-grid {
 	}
 	.box1 h4 a:hover, 
 	.box1 h4 a:focus {
-		color: #009bdb;
+		color: #0B8BAD;
 	}
 	.box1 .btn-secondary {
 		margin-top: 10px;
@@ -2261,7 +2350,7 @@ ul#doctors-grid {
 	.testimonial-box .quote-box {
 		padding: 20px;
 		position: relative;
-		background-color: #009bdb;
+		background-color: #0B8BAD;
 	}
 	.testimonial-box .quote-box:after {
 		content: "";
@@ -2273,7 +2362,7 @@ ul#doctors-grid {
 		height: 0;
 		border: solid transparent;
 		border-color: rgba(0, 155, 219, 0);
-		border-top-color: #009bdb;
+		border-top-color: #0B8BAD;
 		border-width: 15px 15px 0 0;
 	}
 	.testimonial-box .carousel-indicators {
@@ -2295,7 +2384,7 @@ ul#doctors-grid {
 		.testimonial-box .carousel-indicators .active {
 			width: 10px;
 			height: 10px;			
-			background-color: #009bdb;
+			background-color: #0B8BAD;
 		}
 	.testimonial-box .carousel-inner {
 		overflow: visible;
@@ -2359,7 +2448,7 @@ ul#doctors-grid {
 	.contact-info-box .info-box h4 a, 
 	.contact-info-box .info-box h4 a:hover, 
 	.contact-info-box .info-box h4 a:focus {
-		color: #009bdb;
+		color: #0B8BAD;
 	}
 	
 /* Contact Content Styles Starts */	
@@ -2430,7 +2519,7 @@ ul#doctors-grid {
 			width: 78px;
 			height: 78px;
 			line-height: 90px;
-			background-color: #009bdb;
+			background-color: #0B8BAD;
 		}
 		.cblock-1 .icon-wrap.red {
 			line-height: 100px;
@@ -2475,7 +2564,7 @@ ul#doctors-grid {
 	.list-group.categories .list-group-item:hover, 
 	.list-group.categories .list-group-item:focus, 
 	.list-group.categories .list-group-item:before {
-		color: #009bdb;		
+		color: #0B8BAD;		
 	}
 	
 /* Price Range Slider Styles Starts */
@@ -2489,7 +2578,7 @@ ul#doctors-grid {
 	}
 		#price-range .slider-selection, 
 		#price-range .slider-handle {
-			background: #009bdb;
+			background: #0B8BAD;
 		}
 		#price-range .slider-handle {
 			border: 3px solid #fff;
@@ -2568,7 +2657,7 @@ ul#doctors-grid {
 				color: #2b2b2b;
 			}
 			.side-products-list h5 a:hover {
-				color: #009bdb;
+				color: #0B8BAD;
 			}
 		.side-products-list img {
 			margin-right: 20px;
@@ -2580,7 +2669,7 @@ ul#doctors-grid {
 		}
 		.side-products-list .price span.price-new {
 			padding-right: 5px;			
-			color: #009bdb;
+			color: #0B8BAD;
 			font-size: 18px;
 		}
 		.side-products-list .price span.price-old {
@@ -2594,12 +2683,12 @@ ul#doctors-grid {
 .footer-top-bar {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #009bdb;
+	background-color: #fff;
 }
 	.footer-top-bar h3 {
 		margin-top: 10px;
 		margin-bottom: 0;
-		color: #fff;
+		color: #0f0f0f;
 	}
 	.footer-top-bar .btn-black {
 		padding: 15px 40px;
@@ -2657,13 +2746,17 @@ ul#doctors-grid {
 					margin: 8px 16px 20px 0;
 					font-size: 18px;
 				}
-		.footer-area .tweets-list {			
+		.footer-area .tweets-list {	
+			display: flex;
+    		flex-direction: column;		
 		}
 			.footer-area .tweets-list li {
 				margin-top: 10px;
 			}
 			.footer-area .tweets-list li .fa {
-				margin: 7px 12px 20px 0;
+				margin: 7px 12px 20px 0;    
+				height: 20px;
+				width: 20px;
 				color: #fff;
 				font-size: 18px;
 				float: left;
@@ -2786,7 +2879,7 @@ ul#doctors-grid {
 		.list-style-3 li, 
 		.list-style-3 li:before, 
 		.list-style-3 li a {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		.list-style-3 li:hover:before, 
 		.list-style-3 li a:hover, 
@@ -2810,7 +2903,7 @@ ul#doctors-grid {
 	}
 		.sub-products-list-1 li a:hover, 
 		.sub-products-list-1 li a:focus {
-			color: #009bdb;
+			color: #0B8BAD;
 		}
 		
 .data-list-1 {	
@@ -2820,7 +2913,7 @@ ul#doctors-grid {
 		font-weight: normal;
 	}
 	.data-list-1 dd {
-		color: #009bdb;
+		color: #0B8BAD;
 		font-weight: bold;
 	}
 	.data-list-1 dt, 
@@ -2833,7 +2926,7 @@ ul#doctors-grid {
 }	
 	.data-list-1.total dt, 
 	.data-list-1.total dd {
-		color: #009bdb;
+		color: #0B8BAD;
 		font-size: 18px;		
 	}
 		
@@ -2957,7 +3050,6 @@ ul#doctors-grid {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 
 .spacer-extra-small { height: 10px; }
 .spacer-small		{ height: 20px; }
@@ -3200,5 +3292,31 @@ ul#doctors-grid {
 	-webkit-transition: all 0.5s ease 0s;
 	   -moz-transition: all 0.5s ease 0s;
 	        transition: all 0.5s ease 0s;
+}
+
+.nurseTransparente {
+	vertical-align: middle;
+	width: 300px;
+	height: 250px;
+    margin-bottom: 1px;
+}
+
+.images-product {
+	width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#logo {
+	height: 93px;
+}
+
+#logo-contenedor {
+	display: flex;
+    align-items: center;
+}
+
+#buscador {
+	display: flex;
 }
 

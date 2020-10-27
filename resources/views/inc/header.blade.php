@@ -12,7 +12,7 @@
                     <ul class="list-unstyled list-inline">
                         <li class="hidden-md"><p href="mailto:administracion@lyrasalud.com">
                             <i class="fa fa-envelope-o"></i>
-                            administracion@lyrasalud.com
+                            ventas@lyrasalud.com
                         </p>
                         </li>
                         <li><i class="fa fa-phone"></i> Llamanos: 221-228-8958</li>
@@ -48,14 +48,7 @@
                     <!-- Navbar Links Starts -->
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a href="{{ url('/sobre-nosotros') }}">
-                            Sobre Nosotros
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                        <li class="dropdown">
-                            <a href="/servicios">Servicios</a>
-                        </li>
+                            <a href="{{ url('/sobre-nosotros') }}">Sobre Nosotros</a>
                         </li>
                         <li class="dropdown">
                             <a href="/productos" class="dropdown-toggle">
@@ -78,7 +71,10 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="/novedades">Novedades</a>
+                            <a href="/novedades">Capacitación</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/servicios">Asesoramiento</a>
                         </li>
                         <li class="dropdown">
                             <a href="/contacto">Contacto</a>
