@@ -1941,6 +1941,7 @@ ul#doctors-grid {
 #texto-contacto-h2 {
 	margin-left: 11%;
 	color: #ffffff;
+	font-family: 'Lato', sans-serif;
 }
 #foto-contacto {
 	display: flex;
@@ -1951,9 +1952,9 @@ ul#doctors-grid {
 
 #foto-contacto1 {
 	border: transparent;
-    max-height: -webkit-fill-available;
+    max-height: 100%;
 	margin-left: 20%;
-	width: fit-content;
+	width: 50%;
 }
 
 #pie {
@@ -1990,6 +1991,9 @@ ul#doctors-grid {
 		margin-right: 5px;
 	}
 
+.redes {
+	width: 240px;
+}
 
 .tabs-product {
 	margin-bottom: 50px;

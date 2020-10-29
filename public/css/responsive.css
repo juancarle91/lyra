@@ -71,11 +71,11 @@
 			height: 500px;
 		}
 		#texto-contacto {
-		
+			
 			height: 500px;
 		
 		}
-		#texto-contacto-h2 {
+		h2 #texto-contacto-h2 {
 			font-size: 45px;
 			margin-right: 10px;
 		}
@@ -87,7 +87,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 	
 /* Heading Styles Starts */
-	#texto-contacto-h2 {
+	h2 #texto-contacto-h2 {
 		font-size: 35px;
 		margin-right: 10px;
 	}
@@ -244,7 +244,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 	
-	#texto-contacto-h2 {
+	h2 #texto-contacto-h2 {
 		font-size: 30px;
 		margin-right: 5px;
 	}
@@ -589,14 +589,24 @@
 	
 }
 
+@media (min-width: 479px) and (max-width: 767px) {
+
+	#texto-contacto-h2 {
+		font-size: 30px;
+		margin-right: 5px;
+	}
+
+}
 
 
 /* Extremely Small Devices Styles Starts */
 
+
+
 @media (max-width: 478px) {
 
-	#texto-contacto-h2 {
-		font-size: 24px;
+	h2 #texto-contacto-h2 {
+		font-size: 28px;
 		margin-right: 5px;
 	}	
 /* Navigation Styles Starts */
