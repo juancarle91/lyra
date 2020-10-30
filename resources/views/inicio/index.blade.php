@@ -386,7 +386,7 @@
         
         <div id="texto-contacto">
             <h2 id="texto-contacto-h2">Seguinos en redes y agreganos en WhatsApp para conocer todas nuestras novedades y consultar por nuestros productos o cursos de capacitación.</h2>
-            <a href="/contacto" class="btn btn-main">Contactanos</a>
+            <a href="/contacto" class="btn btn-main"><p>Contactanos</p></a>
         </div>
         <div id="foto-contacto">
             <img src="images/contacto.png" alt="image" class="img-responsive img-style1" id="foto-contacto1">

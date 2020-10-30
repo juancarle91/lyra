@@ -3319,8 +3319,23 @@ ul#doctors-grid {
 
 .images-product {
 	width: 100%;
-    height: 100%;
+    height: auto;
     background-size: cover;
+}
+
+#texto-contacto p {
+	margin: 0;
+}
+
+#footer2 {
+	margin-right: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #logo {

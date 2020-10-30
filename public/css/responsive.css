@@ -605,10 +605,32 @@
 
 @media (max-width: 478px) {
 
-	h2 #texto-contacto-h2 {
-		font-size: 28px;
-		margin-right: 5px;
+	#texto-contacto-h2 {
+		font-size: 20px;
+		margin: 15px;
 	}	
+	#contacto-home .btn-main {
+		font-size: 13px;
+		width: 80%;
+		margin: 15px;
+	}
+
+	#footer-text {
+		font-size: 17px;
+	}
+
+	#texto-contacto p {
+		display: flex;
+		justify-content: center;
+	}
+
+	#texto-contacto p {
+		margin: 0;
+	}
+
+	.redes {
+		margin-top: 12px;
+	}
 /* Navigation Styles Starts */
 
 	#nav .navbar-brand {
