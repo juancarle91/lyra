@@ -36,7 +36,7 @@
         
         <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     </head>
-    <body>
+    <body id="body">
 
         @include ('inc.header')
 

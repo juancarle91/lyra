@@ -628,6 +628,11 @@
 		margin: 0;
 	}
 
+	#footer2 {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.redes {
 		margin-top: 12px;
 	}
