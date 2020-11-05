@@ -441,28 +441,28 @@ h6 { font-size: 16px; }
 	padding-bottom: 70px;
 }
 	.main-banner.one {
-		background: url(../images/banners/banner-img1.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.two {
-		background: url(../images/banners/banner-img2.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.three {
-		background: url(../images/banners/banner-img3.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.four {
-		background: url(../images/banners/banner-img4.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.five {
-		background: url(../images/banners/banner-img5.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.six {
-		background: url(../images/banners/banner-img6.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.seven {
-		background: url(../images/banners/banner-img7.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.eight {
-		background: url(../images/banners/banner-img8.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner h2 {
 		margin-top: 0;
@@ -470,7 +470,7 @@ h6 { font-size: 16px; }
 		color: #323232;
 	}
 	.main-banner h2::first-letter {
-		color: #0B8BAD;
+		color: #323232;
 	}
 		.main-banner h2 span {
 			padding: 20px 50px 16px 30px;
@@ -2000,6 +2000,155 @@ ul#doctors-grid {
 		max-width: 25px;
 		margin-right: 5px;
 	}
+#capacitacion {
+	margin-bottom: 6%;
+}
+#capacitacion-principal {
+	height: 600px;
+	display: flex;
+    justify-content: center;
+    align-items: flex-end;
+	color: #0B8BAD;
+	background-image: url("/images/Capacitacion.png"); 
+  	background-position: center; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+#texto-capacitacion {
+    margin: 5%;
+    width: 80%;
+}
+#foto-capacitacion {
+	width: 40%;
+	height: auto;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#foto-capacitacion img {
+	width: 50%;
+	margin: 5%;
+	height: auto;
+	border: none;
+}
+
+.texto-capacitacion-h2 {
+	font-size: 22px;
+    text-align: center;
+	font-weight: bold;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 5%;
+}
+
+#asesoramiento {
+	margin-bottom: 6%;
+}
+#asesoramiento-principal {
+	height: 600px;
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+	color: #fff;
+	background-image: url("/images/Asesoramiento.png"); 
+  	background-position: center; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+#texto-asesoramiento {
+	margin: 8%;
+    width: 35%;
+    height: 60%;
+    background-color: #0B8BAD;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+#foto-asesoramiento {
+	width: 40%;
+	height: auto;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+#foto-asesoramiento img {
+	width: 50%;
+	margin: 5%;
+	height: auto;
+	border: none;
+}
+
+.texto-asesoramiento-h2 {
+	font-size: 22px;
+	text-align: center;
+	margin: 8%;
+}
+
+
+#sobre-nos {
+	margin-bottom: 6%;
+}
+
+#sobre-nos-principal {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E1D8D7;
+    color: #0B8BAD;
+}
+#texto-nosotros {
+	margin: 5%;
+	width: 35%;
+}
+#foto-nosotros {
+	width: 40%;
+	height: auto;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#foto-nosotros img {
+	width: 50%;
+	margin: 5%;
+	height: auto;
+	border: none;
+}
+
+.texto-nosotros-h2 {
+	font-size: 22px;
+	text-align: center;
+}
+
+
+#texto-nosotros-blanco {
+	display: flex;
+    background-color: #0B8BAD;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-nosotros-blanco h2 {
+	margin: 0;
+	color: #fff;
+	padding: 3%;
+	width: 70%;
+}
+
+#texto-nosotros-gris {
+	display: flex;
+    background-color: #c6c6c6;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+#texto-nosotros-gris h2 {
+	margin: 0;
+	color: #0B8BAD;
+	padding: 3%;
+	width: 70%;
+	font-size: 29px;
+}
 
 .redes {
 	width: 240px;

@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'InicioController@inicio');
 Route::get('/sobre-nosotros', 'SobreNosotrosController@sobreNosotros');
 Route::get('/servicios', 'ServiciosController@servicios');
-Route::get('/productos', 'ProductosController@productos');
+Route::get('/productos', 'TiendaController@show');
 Route::get('/productos/{categoria}', 'TiendaController@show');
 Route::get('/contacto', 'ContactoController@contacto');
 Route::post('/contacto', 'ContactoController@enviar_mail');

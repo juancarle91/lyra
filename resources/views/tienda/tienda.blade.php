@@ -12,8 +12,7 @@
     <div class="container">
         <ul class="list-unstyled list-inline">
             <li><a href="/">Home</a></li>
-            <li><a href="/productos">Productos</a></li>
-            <li class="active">{{$categoria->titulo}}</li>
+            <li class="active">Nuestros Productos</li>
         </ul>
     </div>
 </div>
@@ -24,23 +23,16 @@
         <div class="row">
         <!-- Sidearea Starts -->
             <div class="col-sm-3 col-xs-12">
-            <!-- Categories Starts -->
-                <h4 class="side-heading2 text-bold">Categorías</h4>
-                <div class="list-group categories">
-                    @foreach ($categorias as $cat)
-                    <a href="/productos/{{ $categoria->id }}" class="list-group-item"> {{$cat->titulo}} </a>
-                    @endforeach
-                </div>
-            <!-- Categories Ends -->
-            
-            <!-- Spacer Starts -->
+   
+                
+                <!-- Spacer Starts -->
                 <div class="spacer-small"></div>
-            <!-- Spacer Ends -->
-           
-            <!-- Spacer Starts -->
+                <!-- Spacer Ends -->
+            
+                <!-- Spacer Starts -->
                 <div class="spacer-extra-small"></div>
-            <!-- Spacer Ends -->
-            <!-- Information Starts -->
+                <!-- Spacer Ends -->
+                <!-- Information Starts -->
                 <h4 class="side-heading2 text-bold">Información</h4>
                 <div class="list-group categories">
                     <a href="/sobre-nosotros" class="list-group-item">Sobre Nosotros</a>
@@ -48,7 +40,7 @@
                     <a href="/novedades" class="list-group-item">Novedades</a>
                     <a href="/contaco" class="list-group-item">Contacto</a>
                 </div>
-            <!-- Information Ends -->
+                <!-- Information Ends -->
             </div>
         <!-- Sidearea Ends -->
         <!-- Mainarea Starts -->

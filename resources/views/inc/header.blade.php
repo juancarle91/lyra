@@ -51,8 +51,8 @@
                             <a href="{{ url('/sobre-nosotros') }}">Sobre Nosotros</a>
                         </li>
                         <li class="dropdown">
-                            <a href="/productos" class="dropdown-toggle">
-                            Productos
+                            <a href="/productos/1" class="dropdown-toggle">
+                            Nuestros Productos
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 @foreach ($categorias as $categoria)

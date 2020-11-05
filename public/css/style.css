@@ -439,28 +439,28 @@ h6 { font-size: 16px; }
 	padding-bottom: 70px;
 }
 	.main-banner.one {
-		background: url(../images/banners/banner-img1.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.two {
-		background: url(../images/banners/banner-img2.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.three {
-		background: url(../images/banners/banner-img3.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.four {
-		background: url(../images/banners/banner-img4.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.five {
-		background: url(../images/banners/banner-img5.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.six {
-		background: url(../images/banners/banner-img6.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.seven {
-		background: url(../images/banners/banner-img7.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner.eight {
-		background: url(../images/banners/banner-img8.jpg) center top;
+		background-color: #0B8BAD;
 	}	
 	.main-banner h2 {
 		margin-top: 0;
@@ -468,7 +468,7 @@ h6 { font-size: 16px; }
 		color: #323232;
 	}
 	.main-banner h2::first-letter {
-		color: #009bdb;
+		color: #323232;
 	}
 		.main-banner h2 span {
 			padding: 20px 50px 16px 30px;

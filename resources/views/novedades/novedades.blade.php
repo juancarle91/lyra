@@ -5,7 +5,7 @@
 <!-- Main Banner Starts -->
 <div class="main-banner two">
     <div class="container">
-        <h2><span>Novedades</span></h2>
+        <h2><span>Capacitación</span></h2>
     </div>
 </div>
 <!-- Main Banner Ends -->
@@ -14,11 +14,22 @@
     <div class="container">
         <ul class="list-unstyled list-inline">
             <li><a href="/">Home</a></li>
-            <li class="active">Novedades</li>
+            <li class="active">Capacitación</li>
         </ul>
     </div>
 </div>		
 <!-- Breadcrumb Ends -->
+<section id="capacitacion">
+    <div id="capacitacion-principal">
+
+        <div id="texto-capacitacion">
+            <h2 class="texto-capacitacion-h2">
+                Ponemos nuestro equipo, conocimiento y experiencia, al servicio de tu negocio para  optimizar  tus prestaciones de salud
+            </h2>
+        </div>
+        
+    </div>
+</section>
 <!-- Main Container Starts -->
 <div class="container main-container">
 <!-- Nested Row Starts -->
@@ -52,19 +63,26 @@
         
         </div>
     <!-- Mainarea Ends -->
-    <!-- Sidearea Starts -->
-        <div class="col-md-3 col-xs-12">
-            <!-- Categories Starts -->
-            <h4 class="side-heading2 text-bold">Categorias</h4>
+        <div class="col-sm-3 col-xs-12">
+    
+                    
+            <!-- Spacer Starts -->
+            <div class="spacer-small"></div>
+            <!-- Spacer Ends -->
+        
+            <!-- Spacer Starts -->
+            <div class="spacer-extra-small"></div>
+            <!-- Spacer Ends -->
+            <!-- Information Starts -->
+            <h4 class="side-heading2 text-bold">Información</h4>
             <div class="list-group categories">
-                @foreach ($categorias as $categoria)
-                <a href="/productos/{{ $categoria->id }}" class="list-group-item">{{ $categoria->titulo }}</a>
-                @endforeach
+                <a href="/sobre-nosotros" class="list-group-item">Sobre Nosotros</a>
+                <a href="/servicios" class="list-group-item">Servicios</a>
+                <a href="/novedades" class="list-group-item">Novedades</a>
+                <a href="/contaco" class="list-group-item">Contacto</a>
             </div>
-            <!-- Categories Ends -->
-       
+            <!-- Information Ends -->
         </div>
-    <!-- Sidearea Ends -->
     </div>
 <!-- Nested Row Ends -->
 </div>
