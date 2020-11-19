@@ -35,7 +35,7 @@
 				
 			</div>
 			<div id="texto-nosotros-blanco">
-				<h2 class="texto-nosotros-h2">Sanitizar nuestros espacios no es solo una tendencia, es una necesidad de hoy y de siempre.</h2>
+				<h2 class="texto-nosotros-h2" id="texto-tarjetas">Sanitizar nuestros espacios no es solo una tendencia, es una necesidad de hoy y de siempre.</h2>
 			</div>
 			<div id="texto-nosotros-gris">
 				<h2 class="texto-nosotros-h2">Contactanos y trabajemos juntos</h2>

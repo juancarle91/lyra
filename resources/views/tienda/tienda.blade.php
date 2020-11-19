@@ -20,28 +20,9 @@
 <!-- Main Container Starts -->
 <div class="container main-container">
     <!-- Nested Row Starts -->
-        <div class="row">
+        <div class="row" id="tienda-productos">
         <!-- Sidearea Starts -->
-            <div class="col-sm-3 col-xs-12">
-   
-                
-                <!-- Spacer Starts -->
-                <div class="spacer-small"></div>
-                <!-- Spacer Ends -->
-            
-                <!-- Spacer Starts -->
-                <div class="spacer-extra-small"></div>
-                <!-- Spacer Ends -->
-                <!-- Information Starts -->
-                <h4 class="side-heading2 text-bold">Información</h4>
-                <div class="list-group categories">
-                    <a href="/sobre-nosotros" class="list-group-item">Sobre Nosotros</a>
-                    <a href="/servicios" class="list-group-item">Servicios</a>
-                    <a href="/novedades" class="list-group-item">Novedades</a>
-                    <a href="/contaco" class="list-group-item">Contacto</a>
-                </div>
-                <!-- Information Ends -->
-            </div>
+
         <!-- Sidearea Ends -->
         <!-- Mainarea Starts -->
             <div class="col-sm-9 col-xs-12">
@@ -55,10 +36,10 @@
                 <input class="form-control" type="text" placeholder="Busqueda" aria-label="Search"  >
             </div>-->
 
-            <form class="form-inline mr-auto" method="get" action="/productos/{{$categoria->id}}">
+            <!--<form class="form-inline mr-auto" method="get" action="/productos/ // agregar llaves $categoria->id}}">
                 <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search" name="keyword">
                 <button class="btn btn-primary" type="submit">Buscar</button>
-            </form>
+            </form>-->
 
             <!-- Spacer Starts -->
                 <div class="spacer-small"></div>
@@ -118,6 +99,60 @@
         <!-- Mainarea Ends -->
         </div>
     <!-- Nested Row Ends -->
+        <h2 id="tienda-final-texto">Contactanos para conocer todos nuestros productos</h2>
+
+        <div class="container main-container no-margin-top">
+            <!-- Book Appointment Box Starts -->
+            <!--<div class="book-appointment-box">
+                <div class="row">
+                    <div class="col-md-5 col-xs-12 text-center-sm text-center-xs">
+                        <h4>Asistencia Telef&oacute;nica</h4>
+                        <h3><i class="fa fa-phone-square"></i> 221-228-8958</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-12 text-center-sm text-center-xs">
+                        <a href="doctor-profile.html" class="btn btn-main text-uppercase">cont&aacute;ctenos</a>
+                    </div>
+                    <div class="col-md-3 col-xs-12 hidden-sm hidden-xs">
+                        <div class="box-img">
+                            <img src="images\nurse-transparente.png" class="nurseTransparente" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <!-- Book Appointment Box Ends -->
+        </div>
+        
+        <div class="tarjetas-gris">
+            <h2 class="texto-tarjetas">Trabajamos con tarjetas de crédito</h2>
+            <div class="img-tarjeta">
+                <img src="{{ asset ('images/visa.png') }} ">
+                <img src="{{ asset ('images/master.png') }} ">
+                <img src="{{ asset ('images/cabal.png') }} ">
+                <img src="{{ asset ('images/union.png') }} ">
+            </div>  
+        </div>
+        <!-- Main Container Starts -->
+        <div class="container main-container no-margin-top">
+            <!-- Book Appointment Box Starts -->
+            <!--<div class="book-appointment-box">
+                <div class="row">
+                    <div class="col-md-5 col-xs-12 text-center-sm text-center-xs">
+                        <h4>Asistencia Telef&oacute;nica</h4>
+                        <h3><i class="fa fa-phone-square"></i> 221-228-8958</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-12 text-center-sm text-center-xs">
+                        <a href="doctor-profile.html" class="btn btn-main text-uppercase">cont&aacute;ctenos</a>
+                    </div>
+                    <div class="col-md-3 col-xs-12 hidden-sm hidden-xs">
+                        <div class="box-img">
+                            <img src="images\nurse-transparente.png" class="nurseTransparente" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <!-- Book Appointment Box Ends -->
+        </div>
+
     </div>
 <!-- Main Container Ends -->
 @endsection

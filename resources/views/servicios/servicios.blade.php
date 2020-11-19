@@ -23,8 +23,7 @@
 
         <div id="texto-asesoramiento">
             <h2 class="texto-asesoramiento-h2">
-                Apostamos a seguir formándonos día a día para crecer académica y profesionalmente.  <br>
-                Por eso te ofrecemos  cursos de capacitación especialmente desarrollados para mejorar la calidad de tu  trabajo y brindarle nuevas oportunidades todo el tiempo.
+                Ponemos nuestro equipo, conocimiento y experiencia, al servicio de tu negocio para optimizar tus prestaciones de salud
             </h2>
         </div>
         

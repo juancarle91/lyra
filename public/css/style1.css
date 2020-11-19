@@ -1967,6 +1967,32 @@ ul#doctors-grid {
 	width: 50%;
 }
 
+.tarjetas-gris {
+	display: flex;
+    flex-direction: column;
+    background-color: #c6c6c6;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.texto-tarjetas {
+	font-family: 'Lato', sans-serif;
+	color: #0B8BAD;
+	font-size: 35px;
+	text-align: center;
+}
+.img-tarjeta {
+	max-width: 70%;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.img-tarjeta img {
+	width: 15%;
+}
+
 #pie {
 	display: flex;
 }
@@ -2006,24 +2032,30 @@ ul#doctors-grid {
 #capacitacion-principal {
 	height: 600px;
 	display: flex;
-    justify-content: center;
-    align-items: flex-end;
-	color: #0B8BAD;
+    justify-content: flex-end;
+    align-items: center;
+	color: #fff;
 	background-image: url("/images/Capacitacion.png"); 
   	background-position: center; 
   	background-repeat: no-repeat;
   	background-size: cover;
 }
 #texto-capacitacion {
-    margin: 5%;
-    width: 80%;
+    margin: 8%;
+    width: 35%;
+    height: 60%;
+    background-color: #0B8BAD;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	display: flex;
+    align-items: center;
+	justify-content: center;
 }
 #foto-capacitacion {
 	width: 40%;
 	height: auto;
 	display: flex;
     align-items: center;
-    justify-content: center;
+	justify-content: center;
 }
 #foto-capacitacion img {
 	width: 50%;
@@ -2037,7 +2069,9 @@ ul#doctors-grid {
     text-align: center;
 	font-weight: bold;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    margin-bottom: 5%;
+    padding: 6%;
+	margin: 0;
+	line-height: normal;
 }
 
 #asesoramiento {
@@ -2080,8 +2114,12 @@ ul#doctors-grid {
 
 .texto-asesoramiento-h2 {
 	font-size: 22px;
-	text-align: center;
-	margin: 8%;
+    text-align: center;
+	font-weight: bold;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 6%;
+	margin: 0;
+	line-height: normal;
 }
 
 
@@ -2873,6 +2911,16 @@ ul#doctors-grid {
 	
 /* Footer Styles Starts */
 
+#tienda-productos {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tienda-final-texto {
+	text-align: center;
+}
+
 .main-footer {
 }
 	.footer-area {
@@ -2893,6 +2941,7 @@ ul#doctors-grid {
 			padding-bottom: 20px;
 			position: relative;
 			color: #fff;
+			line-height: normal;
 		}
 
 		.footer-area ul {
@@ -3508,4 +3557,3 @@ ul#doctors-grid {
 #buscador {
 	display: flex;
 }
-
