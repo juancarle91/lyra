@@ -22,14 +22,7 @@
     <br>
     <!-- Heading Ends -->
     <!-- Content Starts -->
-    <div class="row">
-        <div class="col-xs-10 col-xs-offset-1">
-            <p>
-                Solicite un presupuesto de acuerdo a sus necesidades y nos pondremos en contacto a la brevedad, brindando asesoramiento personalizado de acuerdo a su necesidad.
-            </p>
-
-        </div>
-    </div>
+ 
     <!-- Content Ends -->
     <!-- Intro Boxes Starts -->
     <ul class="list-unstyled row intro-box text-center">

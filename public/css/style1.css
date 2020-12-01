@@ -2068,10 +2068,9 @@ ul#doctors-grid {
 	font-size: 22px;
     text-align: center;
 	font-weight: bold;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     padding: 6%;
 	margin: 0;
-	line-height: normal;
+	line-height: 35px;
 }
 
 #asesoramiento {
@@ -2116,10 +2115,9 @@ ul#doctors-grid {
 	font-size: 22px;
     text-align: center;
 	font-weight: bold;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     padding: 6%;
 	margin: 0;
-	line-height: normal;
+	line-height: 35px;
 }
 
 
@@ -2135,8 +2133,12 @@ ul#doctors-grid {
     color: #0B8BAD;
 }
 #texto-nosotros {
-	margin: 5%;
+	margin: 1%;
 	width: 35%;
+}
+#texto-tarjetas {
+	font-weight: bold;
+	font-size: 28px;
 }
 #foto-nosotros {
 	width: 40%;
@@ -2155,6 +2157,7 @@ ul#doctors-grid {
 .texto-nosotros-h2 {
 	font-size: 22px;
 	text-align: center;
+	line-height: 35px;
 }
 
 
