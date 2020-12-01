@@ -15,8 +15,8 @@
                             ventas@lyrasalud.com
                         </p>
                         </li>
-                        <li><i class="fa fa-phone"></i> Llamanos: 221-228-8958</li>
-                        <li><i class="fa fa-phone"><a href="https://api.whatsapp.com/send?phone=542214973663&text=Gracias!%20por%20contactarte,%20estaremos%20respondiendo%20en%20breve."></i> Whatsapp: 221-497-3663</li></a>
+                        <li><i class="fa fa-phone"></i> Llamanos: 0221 228 8958</li>
+                        <li><i class="fa fa-phone"><a href="https://api.whatsapp.com/send?phone=542214973663"></i> Whatsapp: 0221 497 3663</li></a>
                     </ul>
                 </div>
             </div>
@@ -55,16 +55,16 @@
                             Nuestros Productos
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                @foreach ($categorias as $categoria)
-                                <li><a href="/productos/{{ $categoria->id }}">{{ $categoria->titulo }}</a></li>
-                                @endforeach
+                                
+                                <!--<li><a href="/productos/ -- $categoria->id --">-- $categoria->titulo --</a></li> -->
+                                
                                 <li>
                                     <a href="images\odontologia.pdf" download>
                                     Descargar Listado Odontologia 
                                     </a> 
                                 </li>
                                 <li>
-                                    <a href="images\insumoso .pdf" download>
+                                    <a href="images\insumoso.pdf" download>
                                     Descargar Listado Insumos Médicos 
                                     </a> 
                                 </li>
