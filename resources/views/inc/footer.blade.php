@@ -5,7 +5,7 @@
         <!-- Nested Container Starts -->
         <div class="container" id="footer1">
             <div class="row">
-                <h4 id="footer-text">Seguimos en redes y agreganos en WhatsApp para conocer todas nuestra novedades y consultar por nuestros productos o cursos de capacitación.</h4>
+                <h4 id="footer-text">Seguimos en redes y agreganos en WhatsApp para conocer todas nuestras novedades y consultar por nuestros productos o cursos de capacitación.</h4>
             </div>
         </div>
         <div class="container" id="footer2">
