@@ -79,6 +79,34 @@
 			font-size: 45px;
 			margin-right: 10px;
 		}
+
+		.texto-nosotros-h2 {
+			font-size: 22px;
+			text-align: center;
+			line-height: 35px;
+		}
+		#texto-nosotros {
+			margin: 1%;
+			width: 35%;
+		}
+		#texto-asesoramiento, #texto-capacitacion {
+			margin: 8%;
+			width: 35%;
+			height: 60%;
+			background-color: #0B8BAD;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.texto-asesoramiento-h2, .texto-capacitacion-h2 {
+			font-size: 22px;
+			text-align: center;
+			font-weight: bold;
+			padding: 6%;
+			margin: 0;
+			line-height: 35px;
+		}
 }
 
 
@@ -237,7 +265,35 @@
 	.img-center-md {
 		margin-left: auto;
 		margin-right: auto;
-	}			
+	}	
+	
+	.texto-nosotros-h2 {
+		font-size: 22px;
+		text-align: center;
+		line-height: 35px;
+	}
+	#texto-nosotros {
+		margin: 1%;
+		width: 35%;
+	}
+	#texto-asesoramiento, #texto-capacitacion {
+		margin: 8%;
+		width: 35%;
+		height: 60%;
+		background-color: #0B8BAD;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.texto-asesoramiento-h2, .texto-capacitacion-h2 {
+		font-size: 22px;
+		text-align: center;
+		font-weight: bold;
+		padding: 6%;
+		margin: 0;
+		line-height: 35px;
+	}
 }
 
 /* Small Devices Styles Starts */
@@ -405,6 +461,34 @@
 		margin-right: auto;
 	}	
 	
+	.texto-nosotros-h2 {
+		font-size: 22px;
+		text-align: center;
+		line-height: 35px;
+	}
+	#texto-nosotros {
+		margin: 1%;
+		width: 35%;
+	}
+
+	#texto-asesoramiento, #texto-capacitacion {
+		margin: 8%;
+		width: 35%;
+		height: 60%;
+		background-color: #0B8BAD;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.texto-asesoramiento-h2, .texto-capacitacion-h2 {
+		font-size: 22px;
+		text-align: center;
+		font-weight: bold;
+		padding: 6%;
+		margin: 0;
+		line-height: 35px;
+	}
 }
 
 /* Extra Small Devices Styles Starts */
@@ -585,8 +669,15 @@
 	.img-center-xs {
 		margin-left: auto;
 		margin-right: auto;
-	}			
-	
+	}	
+
+	#footer2 {
+		display: flex;
+		flex-direction: column;
+	}
+	.redes {
+		margin: 3%;
+	}
 }
 
 @media (min-width: 479px) and (max-width: 767px) {
@@ -596,6 +687,35 @@
 		margin-right: 5px;
 	}
 
+	.texto-nosotros-h2 {
+		font-size: 22px;
+		text-align: center;
+		line-height: 35px;
+	}
+	#texto-nosotros {
+		margin: 1%;
+		width: 35%;
+	}
+
+
+	#texto-asesoramiento, #texto-capacitacion {
+		margin: 8%;
+		width: 35%;
+		height: 60%;
+		background-color: #0B8BAD;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.texto-asesoramiento-h2, .texto-capacitacion-h2 {
+		font-size: 22px;
+		text-align: center;
+		font-weight: bold;
+		padding: 6%;
+		margin: 0;
+		line-height: 35px;
+	}
 }
 
 
@@ -762,5 +882,34 @@
 		margin-top: 20%;
 	}	
 
+	.texto-nosotros-h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	#texto-nosotros {
+		margin: 1%;
+		width: 80%;	
+	}
+	#sobre-nos-principal {
+		flex-direction: column;
+	}
+	#texto-capacitacion {
+		margin-top: 290px;
+		width: 85%;
+		margin: 8%;
+	}
+	.texto-capacitacion-h2 {
+		font-size: 20px;
+		line-height: unset;
+	}
+	#textp-asesoramiento{
+		margin-top: 290px;
+		width: 85%;
+		margin: 8%;
+	}
+	.texto-asesoramiento-h2{
+		font-size: 20px;
+		line-height: unset;
+	}
 }
 

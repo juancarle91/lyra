@@ -2041,9 +2041,6 @@ ul#doctors-grid {
   	background-size: cover;
 }
 #texto-capacitacion {
-    margin: 8%;
-    width: 35%;
-    height: 60%;
     background-color: #0B8BAD;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 	display: flex;
@@ -2065,12 +2062,10 @@ ul#doctors-grid {
 }
 
 .texto-capacitacion-h2 {
-	font-size: 22px;
     text-align: center;
 	font-weight: bold;
     padding: 6%;
 	margin: 0;
-	line-height: 35px;
 }
 
 #asesoramiento {
@@ -2088,9 +2083,6 @@ ul#doctors-grid {
   	background-size: cover;
 }
 #texto-asesoramiento {
-	margin: 8%;
-    width: 35%;
-    height: 60%;
     background-color: #0B8BAD;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 	display: flex;
@@ -2112,12 +2104,10 @@ ul#doctors-grid {
 }
 
 .texto-asesoramiento-h2 {
-	font-size: 22px;
     text-align: center;
 	font-weight: bold;
     padding: 6%;
 	margin: 0;
-	line-height: 35px;
 }
 
 
@@ -2132,10 +2122,7 @@ ul#doctors-grid {
     background-color: #E1D8D7;
     color: #0B8BAD;
 }
-#texto-nosotros {
-	margin: 1%;
-	width: 35%;
-}
+
 #texto-tarjetas {
 	font-weight: bold;
 	font-size: 28px;
@@ -2152,12 +2139,6 @@ ul#doctors-grid {
 	margin: 5%;
 	height: auto;
 	border: none;
-}
-
-.texto-nosotros-h2 {
-	font-size: 22px;
-	text-align: center;
-	line-height: 35px;
 }
 
 

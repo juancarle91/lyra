@@ -64,7 +64,7 @@
                                     </a> 
                                 </li>
                                 <li>
-                                    <a href="images\insumoso.pdf" download>
+                                    <a href="images\insumos.pdf" download>
                                     Descargar Listado Insumos Médicos 
                                     </a> 
                                 </li>
