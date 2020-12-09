@@ -692,6 +692,10 @@
 		margin: 1%;
 		width: 80%;	
 	}
+	.texto-nosotros-h2 {
+		font-size: 20px;
+		text-align: center;
+	}
 	#sobre-nos-principal {
 		flex-direction: column;
 	}
