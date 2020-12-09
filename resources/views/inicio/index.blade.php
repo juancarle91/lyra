@@ -28,7 +28,7 @@
     <ul class="list-unstyled row intro-box text-center">
         @foreach ($categorias as $categoria)
         <li class="col-sm-4 col-xs-12">
-            <a href="/{{$categoria->titulo}}"><div class="intro-box-item">
+            <a href="/{{ $categoria->descripcion }}"><div class="intro-box-item">
                 <img src="{{ $categoria->foto }}" alt="Optical Solutions" class="img-responsive img-center images-product">
                 <h4>{{ $categoria->titulo }}</h4>
             </div></a>
