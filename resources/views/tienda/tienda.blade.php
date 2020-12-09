@@ -29,7 +29,7 @@
             <!-- Page Heading Starts -->
 
                 <h3 class="page-heading1">{{$categoria->titulo}}</h3>
-                <p>{{$categoria->descripcion}}</p>
+                <p>Ofrecemos una amplia variedad de insumos y equipamientos sanitarios para todo tipo de necesidades y usos. Nos caracterizamos por la calidad de nuestros productos y la predisposición por tener siempre las últimas novedades del mercado para vos.</p>
             <!-- Page Heading Ends -->
             <!-- Search form -->
             <!--<div class="md-form mt-0" method='get' action='/productos/{categoria}'>
