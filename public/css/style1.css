@@ -2141,6 +2141,9 @@ ul#doctors-grid {
 	border: none;
 }
 
+.texto-nosotros-h2 {
+	text-align: center;
+}
 
 #texto-nosotros-blanco {
 	display: flex;

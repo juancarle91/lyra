@@ -687,14 +687,18 @@
 		margin-right: 5px;
 	}
 
-	.texto-nosotros-h2 {
-		font-size: 22px;
-		text-align: center;
-		line-height: 35px;
-	}
+
 	#texto-nosotros {
 		margin: 1%;
-		width: 35%;
+		width: 80%;	
+	}
+	#sobre-nos-principal {
+		flex-direction: column;
+	}
+	#texto-capacitacion {
+		margin-top: 290px;
+		width: 85%;
+		margin: 8%;
 	}
 
 
@@ -886,6 +890,7 @@
 		font-size: 20px;
 		text-align: center;
 	}
+
 	#texto-nosotros {
 		margin: 1%;
 		width: 80%;	
