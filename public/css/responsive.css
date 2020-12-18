@@ -107,6 +107,10 @@
 			margin: 0;
 			line-height: 35px;
 		}
+		#capacitacion-principal {
+			height: 750px;
+			background-image: url("/images/Capacitacion.png"); 
+		}
 }
 
 
@@ -293,6 +297,10 @@
 		padding: 6%;
 		margin: 0;
 		line-height: 35px;
+	}
+	#capacitacion-principal {
+		height: 750px;
+		background-image: url("/images/Capacitacion.png"); 
 	}
 }
 
@@ -489,6 +497,10 @@
 		margin: 0;
 		line-height: 35px;
 	}
+	#capacitacion-principal {
+		height: 750px;
+		background-image: url("/images/Capacitacion.png"); 
+	}
 }
 
 /* Extra Small Devices Styles Starts */
@@ -678,6 +690,10 @@
 	.redes {
 		margin: 3%;
 	}
+	#capacitacion-principal {
+		height: 750px;
+		background-image: url("/images/Capacitacion.png"); 
+	}
 }
 
 @media (min-width: 479px) and (max-width: 767px) {
@@ -732,6 +748,8 @@
 
 
 @media (max-width: 478px) {
+
+
 
 	#texto-contacto-h2 {
 		font-size: 20px;
@@ -902,10 +920,15 @@
 	#sobre-nos-principal {
 		flex-direction: column;
 	}
+	#capacitacion-principal {
+		height: auto;
+		background-image: url("/images/capacitacion-s.png"); 
+	}
 	#texto-capacitacion {
 		margin-top: 290px;
 		width: 85%;
 		margin: 8%;
+		opacity: 0.8;
 	}
 	.texto-capacitacion-h2 {
 		font-size: 20px;
