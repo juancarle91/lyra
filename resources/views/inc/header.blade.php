@@ -79,6 +79,13 @@
                         <li class="dropdown">
                             <a href="/contacto">Contacto</a>
                         </li>
+
+                        <li class="dropdown" id="listado1">
+                            <a href="images\odontologia.pdf">Descargar Listado Odontologia  </a>
+                        </li>
+                        <li class="dropdown" id="listado2">
+                            <a href="images\insumos.pdf">Descargar Listado Insumos Médicos </a>
+                        </li>
                         <!--<li class="dropdown">
                             <a href="">Solicite presupuesto</a>
                         </li> -->

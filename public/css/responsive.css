@@ -111,6 +111,10 @@
 			height: 750px;
 			background-image: url("/images/Capacitacion.png"); 
 		}
+		#listado1, #listado2 {
+			position: absolute;
+			opacity: 0;
+		}
 }
 
 
@@ -301,6 +305,10 @@
 	#capacitacion-principal {
 		height: 750px;
 		background-image: url("/images/Capacitacion.png"); 
+	}
+	#listado1, #listado2 {
+		position: absolute;
+		opacity: 0;
 	}
 }
 
@@ -501,6 +509,10 @@
 		height: 750px;
 		background-image: url("/images/Capacitacion.png"); 
 	}
+	#listado1, #listado2 {
+		position: absolute;
+		opacity: 0;
+	}
 }
 
 /* Extra Small Devices Styles Starts */
@@ -694,6 +706,10 @@
 		height: 750px;
 		background-image: url("/images/Capacitacion.png"); 
 	}
+	#listado1, #listado2 {
+		position: absolute;
+		opacity: 0;
+	}
 }
 
 @media (min-width: 479px) and (max-width: 767px) {
@@ -739,6 +755,10 @@
 		padding: 6%;
 		margin: 0;
 		line-height: 35px;
+	}
+	#listado1, #listado2 {
+		position: absolute;
+		opacity: 0;
 	}
 }
 
@@ -942,6 +962,10 @@
 	.texto-asesoramiento-h2{
 		font-size: 20px;
 		line-height: unset;
+	}
+	#listado1, #listado2 {
+		position: unset;
+		opacity: 1;
 	}
 }
 
