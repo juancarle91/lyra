@@ -112,8 +112,7 @@
 			background-image: url("/images/Capacitacion.png"); 
 		}
 		#listado1, #listado2 {
-			position: absolute;
-			opacity: 0;
+			display: none;
 		}
 }
 
@@ -307,8 +306,7 @@
 		background-image: url("/images/Capacitacion.png"); 
 	}
 	#listado1, #listado2 {
-		position: absolute;
-		opacity: 0;
+		display: none;
 	}
 }
 
@@ -510,8 +508,8 @@
 		background-image: url("/images/Capacitacion.png"); 
 	}
 	#listado1, #listado2 {
-		position: absolute;
-		opacity: 0;
+		display: none;
+	}
 	}
 }
 
@@ -707,8 +705,7 @@
 		background-image: url("/images/Capacitacion.png"); 
 	}
 	#listado1, #listado2 {
-		position: absolute;
-		opacity: 0;
+		display: none;
 	}
 }
 
@@ -757,8 +754,7 @@
 		line-height: 35px;
 	}
 	#listado1, #listado2 {
-		position: absolute;
-		opacity: 0;
+		display: none;
 	}
 }
 
