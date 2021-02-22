@@ -12,7 +12,7 @@
                     <ul class="list-unstyled list-inline">
                         <li class="hidden-md"><p href="mailto:administracion@lyrasalud.com">
                             <i class="fa fa-envelope-o"></i>
-                            ventas@lyrasalud.com
+                            administracion@lyrasalud.com
                         </p>
                         </li>
                         <li><i class="fa fa-phone"></i> Llamanos: 0221 228 8958</li>

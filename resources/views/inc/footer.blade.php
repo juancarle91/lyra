@@ -17,7 +17,7 @@
             <ul class="redes"> 
                 <li><a><img src="{{ asset ('images/address.png') }} " class="img-footer"> </a><a>60 n°1124 </a> </li>
                 <li><a><img src="{{ asset ('images/tel.png') }} " class="img-footer"> </a><a>0221 228 8958 </a> </li>
-                <li><a href="mailto:ventas@lyrasalud.com"><img src="{{ asset ('images/gmail.png') }} " class="img-footer"> </a><a href="mailto:ventas@lyrasalud.com">ventas@lyrasalud.com </a> </li>
+                <li><a href="mailto:administracion@lyrasalud.com"><img src="{{ asset ('images/gmail.png') }} " class="img-footer"> </a><a href="mailto:administracion@lyrasalud.com">administracion@lyrasalud.com </a> </li>
             </ul>
         </div>
         <!-- Nested Container Ends -->
